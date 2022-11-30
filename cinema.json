@@ -1,0 +1,57 @@
+{
+    "filmes": [
+      {
+        "id": 1,
+        "nome": "",
+        "descricao": "",
+        "preco": "",
+        "categoria": ""
+      },
+
+      {
+        "id": 2 ,
+        "nome": "",
+        "descricao": "",
+        "preco": "",
+        "categoria": ""
+      },
+      {
+        "id": 3,
+        "nome": "",
+        "descricao": "",
+        "preco": "",
+        "categoria": ""
+      },
+      {
+        "id": 4,
+        "nome": "",
+        "descricao": "",
+        "preco": "",
+        "categoria": ""
+      },
+      {
+        "id": 5,
+        "nome": "",
+        "descricao": "",
+        "preco":"",
+        "categoria": ""
+      },
+      {
+        "id": 6,
+        "nome": "",
+        "descricao": "",
+        "preco":"",
+        "categoria": ""
+      }
+    ],
+    "categorias": [
+      {
+        "id": 1,
+        "nome": "Hambúrgueres"
+      },
+      {
+        "id": 2,
+        "nome": "Refrigerantes"
+      }
+    ]
+  }
