@@ -1,57 +1,345 @@
 {
-    "filmes": [
-      {
-        "id": 1,
-        "nome": "",
-        "descricao": "",
-        "preco": "",
-        "categoria": ""
-      },
-
-      {
-        "id": 2 ,
-        "nome": "",
-        "descricao": "",
-        "preco": "",
-        "categoria": ""
-      },
-      {
-        "id": 3,
-        "nome": "",
-        "descricao": "",
-        "preco": "",
-        "categoria": ""
-      },
-      {
-        "id": 4,
-        "nome": "",
-        "descricao": "",
-        "preco": "",
-        "categoria": ""
-      },
-      {
-        "id": 5,
-        "nome": "",
-        "descricao": "",
-        "preco":"",
-        "categoria": ""
-      },
-      {
-        "id": 6,
-        "nome": "",
-        "descricao": "",
-        "preco":"",
-        "categoria": ""
-      }
-    ],
-    "categorias": [
-      {
-        "id": 1,
-        "nome": "Hambúrgueres"
-      },
-      {
-        "id": 2,
-        "nome": "Refrigerantes"
-      }
-    ]
-  }
+  "filmes": [
+    {
+      "id": 1,
+      "nome": "LIMITE",
+      "ano": 1931,
+      "duração": "2h 00min",
+      "gênero": "Drama, Romance",
+      "direção": "Mario Peixoto",
+      "roteiro": "Mario Peixoto",
+      "elenco": "Olga Breno, Taciana Rey, Raul Schnoor",
+      "Sinopse": "Um barco está perdido no oceano com três náufragos - um homem e duas mulheres. Sem ter o que fazer e com pouquíssimas esperanças de salvação, cada um deles passa a contar para os demais a história de suas vidas, relembrando os acontecimentos que os levaram até ali, três destinos à deriva, confinados em um espaço onde tudo é limite."
+    },
+    {
+      "id": 2,
+      "filme": "DEUS E O DIABO NA TERRA DO SOL",
+      "ano": 1964,
+      "duração": "2h 00min",
+      "gênero": "Drama, Aventura, Crime, Faroeste",
+      "direção": "Glauber Rocha",
+      "roteiro": "Walter Lima Jr., Glauber Rocha",
+      "elenco": "Geraldo Del Rey, Yoná Magalhães, Othon Bastos",
+      "sinopse": "Manuel (Geraldo Del Rey) é um vaqueiro que se revolta contra a exploração imposta pelo coronel Moraes (Mílton Roda) e acaba matando-o numa briga. Ele passa a ser perseguido por jagunços, o que faz com que fuja com sua esposa Rosa (Yoná Magalhães). O casal se junta aos seguidores do beato Sebastião (Lídio Silva), que promete o fim do sofrimento através do retorno a um catolicismo místico e ritual. Porém ao presenciar a morte de uma criança Rosa mata o beato. Simultaneamente Antônio das Mortes (Maurício do Valle), um matador de aluguel a serviço da Igreja Católica e dos latifundiários da região, extermina os seguidores do beato."
+    },
+    {
+      "id": 3,
+      "filme": "VIDAS SECAS",
+      "ano": 1964,
+      "duração": "1h 43min",
+      "gênero": "Drama",
+      "direção": "Nelson Pereira dos Santos",
+      "roteiro": "Graciliano Ramos, Nelson Pereira dos Santos",
+      "elenco": "Atila Iorio, Maria Ribeiro (II), Orlando Macedo",
+      "sinopse": "Em Vidas Secas, uma família miserável tenta escapar da seca no sertão nordestino. Fabiano (Átila Iório), Sinhá Vitória (Maria Ribeiro), seus dois filhos e a cachorra Baleia vagam sem destino e já quase sem esperanças pelos confins do interior, sobrevivendo às forças da natureza e à crueldade dos homens. Adaptação da obra de Graciliano Ramos."
+    },
+    {
+      "id": 4,
+      "filme": "Cabra Marcado para Morrer",
+      "ano": 1984,
+      "duração": "1h 59min",
+      "gênero": "Documentário",
+      "direção": "Eduardo Coutinho",
+      "roteiro": "Eduardo Coutinho",
+      "elenco": "Eduardo Coutinho, Ferreira Gullar, Tite de Lemos",
+      "sinopse": "Início da década de 60. Um líder camponês, João Pedro Teixeira, é assassinado por ordem dos latifundiários do Nordeste. As filmagens de sua vida, interpretada pelos própios camponeses, foram interrompidas pelo golpe militar de 1964. Dezessete anos depois, o diretor retoma o projeto e procura a viúva Elizabeth Teixeira e seus dez filhos, espalhados pela onda de repressão que seguiu ao episódio do assassinato. O tema principal do filme passa a ser a trajetória de cada um dos personagens que, por meio de lembranças e imagens do passado, evocam o drama de uma família de camponeses durante os longos anos do regime militar."
+    },
+    {
+      "id": 5,
+      "filme": "TERRA EM TRANSE",
+      "ano": 1967,
+      "duração": "1h 55min",
+      "gênero": "Drama",
+      "direção": "Glauber Rocha",
+      "roteiro": "Glauber Rocha",
+      "lenco": "Jardel Filho, Paulo Autran, José Lewgoy",
+      "sinopse": "O senador Porfírio Diaz (Paulo Autran) detesta seu povo e pretende tornar-se imperador de Eldorado, um país localizado na América do Sul. Porém existem diversos homens que querem este poder, que resolvem enfrentá-lo. Enquanto isso, o poeta e jornalista Paulo Martins (Jardel Filho), ao perceber as reais intenções de Diaz, muda de lado, abandonando seu antigo protetor."
+    },
+    {
+      "id": 6,
+      "filme": "O BANDIDO DA LUZ VERMELHA",
+      "ano": 1968,
+      "duração": "1h 32min",
+      "gênero": "Drama",
+      "direção": "Rogério Sganzerla",
+      "roteiro": "Rogério Sganzerla",
+      "elenco": "Paulo Villaça, Helena Ignêz, Pagano Sobrinho",
+      "sinopse": "Livremente inspirado em fatos reais. Um assaltante misterioso (Paulo Villaça) usa técnicas extravagantes para roubar casas luxuosas de São Paulo. Ele é apelidado pela imprensa de (bandido da luz vermelha), já que traz sempre uma lanterna vermelha e conversa longamente com suas vítimas. No entanto, seus roubos e crimes chamam tanta atenção que um implacável policial começa a perseguir o (bandido da luz vermelha)."
+    },
+    {
+      "id": 7,
+      "filme": "SÃO PAULO SOCIEDADE ANÔNIMA",
+      "ano": 1965,
+      "duração": "1h 30min",
+      "gênero": "Drama",
+      "direção": "Luís Sérgio Person",
+      "roteiro": "Luís Sérgio Person",
+      "elenco": "Walmor Chagas, Eva Wilma, Ana Esmeralda",
+      "sinopse": "Em São Paulo, entre 1957 e 1961, é mostrada a trajetória de Carlos (Walmor Chagas), que pertence à classe média. Guiando-se pelas chances imediatas que lhe são dadas pela sociedade, ele ingressa numa grande empresa. Depois aceita um cargo numa fábrica de auto-peças, da qual torna-se gerente. A certa altura se vê na pele de um chefe de família, que trabalha muito, ganha bem, mas vive insatisfeito. Sem projeto de vida ou perspectivas de se opor à condição que rejeita, só lhe resta fugir."
+    },
+    {
+      "id": 8,
+      "filme": "CIDADE DE DEUS",
+      "ano": 2002,
+      "duração": "2h 15min",
+      "gênero": ", Policial",
+      "direção": "Kátia Lund, Fernando Meirelles",
+      "roteiro": "Paulo Lins, Braulio Mantovani",
+      "elenco": "Alexandre Rodrigues, Leandro Firmino da Hora, Seu Jorge",
+      "sinopse": "Buscapé (Alexandre Rodrigues) é um jovem pobre, negro e muito sensível, que cresce em um universo de muita violência. Buscapé vive na Cidade de Deus, favela carioca conhecida por ser um dos locais mais violentos da cidade. Amedrontado com a possibilidade de se tornar um bandido, Buscapé acaba sendo salvo de seu destino por causa de seu talento como fotógrafo, o qual permite que siga carreira na profissão. É através de seu olhar atrás da câmera que Buscapé analisa o dia-a-dia da favela onde vive, onde a violência aparenta ser infinita."
+    },
+    {
+      "id": 9,
+      "filme": "O PAGADOR DE PROMESSAS",
+      "ano": 1962,
+      "duração": "1h 32min",
+      "gênero": "rama",
+      "direção": "Anselmo Duarte",
+      "roteiro": "Anselmo Duarte, Dias Gomes",
+      "elenco": "Leonardo Villar (I), Gloria Menezes, Dionisio Azevedo",
+      "sinopse": "Zé do Burro (Leonardo Villar) e sua mulher Rosa (Glória Menezes) vivem em uma pequena propriedade a 42 quilômetros de Salvador. Um dia, o burro de estimação de Zé é atingido por um raio e ele acaba indo a um terreiro de candomblé, onde faz uma promessa a Santa Bárbara para salvar o animal. Com o restabelecimento do bicho, Zé põe-se a cumprir a promessa e doa metade de seu sítio, para depois começar uma caminhada rumo a Salvador, carregando nas costas uma imensa cruz de madeira. Mas a via crucis de Zé ainda se torna mais angustiante ao ver sua mulher se engraçar com o cafetão Bonitão (Geraldo Del Rey) e ao encontrar a resistência ferrenha do padre Olavo (Dionísio Azevedo) a negar-lhe a entrada em sua igreja, pela razão de Zé haver feito sua promessa em um terreiro de macumba."
+    },
+    {
+      "id": 10,
+      "filme": "CENTRAL DO BRASIL",
+      "ano": 1998,
+      "duração": "1h 53min",
+      "gênero": "Drama",
+      "direção": "Walter Salles",
+      "roteiro": "João Emanuel Carneiro, Marcos Bernstein",
+      "elenco": "Fernanda Montenegro, Vinícius de Oliveira, Marília Pêra, Othon Bastos",
+      "sinopse": "Fernanda Montenegro, Vinicius de Oliveira, Marília Pêra"
+    },
+    {
+      "id": 11,
+      "filme": "PIXOTE - A LEI DO MAIS FRACO",
+      "ano": 1980,
+      "duração": "2h 09min",
+      "gênero": "Drama",
+      "direção": "Héctor Babenco",
+      "roteiro": "Jose Louzeiro, Héctor Babenco",
+      "elenco": "Fernando Ramos da Silva, Marília Pêra, Jorge Julião",
+      "sinopse": "Pixote (Fernando Ramos da Silva) foi abandonado por seus pais e rouba para viver nas ruas. Ele já esteve internado em reformatórios e isto só ajudou na sua 'educação', pois conviveu com todo os tipos de criminosos e jovens delinquente. Ele sobrevive se tornando um pequeno traficante de drogas, cafetão e assassino, mesmo tendo apenas onze anos."
+    },
+    {
+      "id": 12,
+      "filme": "ILHA DAS FLORES",
+      "ano": 1989,
+      "duração": "0h 13min",
+      "gênero": "Comédia dramática, Documentário",
+      "direção": "Jorge Furtado",
+      "roteiro": "Jorge Furtado ",
+      "elenco": "Cica Reckziegel, Júlia Barth, Irene Schmidt",
+      "sinopse": "Um tomate é plantado, colhido, transportado e vendido num supermercado, mas apodrece e acaba no lixo. Acaba? Não. O filme segue-o até seu verdadeiro final, entre animais, lixo, mulheres e crianças. E então fica clara a diferença que existe entre tomates, porcos e seres humanos."
+    },
+    {
+      "id": 13,
+      "filme": "ELES NÃO USAM BLACK-TIE",
+      "ano": 1981,
+      "duração": "2h 14min",
+      "gênero": "Drama",
+      "direção": "Leon Hirszman",
+      "roteiro": "Leon Hirszman, Gianfrancesco Guarnieri",
+      "elenco": "Carlos Alberto Riccelli, Bete Mendes, Fernanda Montenegro",
+      "sinopse": "Em São Paulo, em 1980, o jovem operário Tião (Carlos Alberto Riccelli) e sua namorada Maria (Bete Mendes) decidem casar-se ao saber que a moça está grávida. Ao mesmo tempo, eclode um movimento grevista que divide a categoria metalúrgica. Preocupado com o casamento e temendo perder o emprego, Tião fura a greve, entrando em conflito com o pai, Otávio (Gianfrancesco Guarnieri), um velho militante sindical que passou três anos na cadeia durante o regime militar."
+    },
+    {
+      "id": 14,
+      "filme": "O SOM AO REDOR",
+      "ano": 2013,
+      "duração": "2h 11min",
+      "gênero": "Drama, Suspense",
+      "direção": "Kleber Mendonça Filho",
+      "roteiro": "Kleber Mendonça Filho",
+      "elenco": "Irandhir Santos, Gustavo Jahn, Maeve Jinkings",
+      "sinopse": "A presença de uma milícia em uma rua de classe média na zona sul do Recife muda a vida dos moradores do local. Ao mesmo tempo em que alguns comemoram a tranquilidade trazida pela segurança privada, outros passam por momentos de extrema tensão. Ao mesmo tempo, casada e mãe de duas crianças, Bia (Maeve Jinkings) tenta encontrar um modo de lidar com o barulhento cachorro de seu vizinho."
+    },
+    {
+      "id": 15,
+      "filme": "LAVOURA ARCAICA",
+      "ano": 2001,
+      "duração": "2h 51min",
+      "gênero": "Drama",
+      "direção": "Luiz Fernando Carvalho",
+      "roteiro": "Luiz Fernando Carvalho",
+      "elenco": "Selton Mello, Raul Cortez, Juliana Carneiro da Cunha",
+      "sinopse": "André (Selton Mello) é um filho desgarrado, que saiu de casa devido à severa lei paterna e o sufocamento da ternura materna. Pedro (Leonardo Medeiros), seu irmão mais velho, recebe de sua mãe a missão de trazê-lo de volta ao lar. Cedendo aos apelos da mãe e de Pedro, André resolve voltar para a casa dos seus pais, mas irá quebrar definitivamente os alicerces da família ao se apaixonar por sua bela irmã Ana (Simone Spoladore)."
+    },
+    {
+      "id": 16,
+      "filme": "JOGO DE CENA",
+      "ano": 2007,
+      "duração": "1h 45min",
+      "gênero": "Documentário",
+      "direção": "Eduardo Coutinho",
+      "roteiro": "Eduardo Coutinho",
+      "elenco": "Marília Pêra, Fernanda Torres, Andréa Beltrão",
+      "sinopse": "Atendendo a um anúncio de jornal, 83 mulheres contaram sua história de vida em um estúdio. 23 delas foram selecionadas, em junho de 2006, e filmadas no Teatro Glauce Rocha. Em setembro do mesmo ano várias atrizes interpretaram, a seu modo, as histórias contadas por estas mulheres, borrando as tênues linhas que separam a realidade da ficção."
+    },
+    {
+      "id": 17,
+      "filme": "OS FUZIS",
+      "ano": 1965,
+      "duração": "2h 00min",
+      "gênero": "Drama",
+      "direção": "Ruy Guerra",
+      "roteiro": "Ruy Guerra",
+      "elenco": "Atila Iorio, Nelson Xavier, Maria Gladys",
+      "sinopse": "Ano de 1963, policiais chegam a uma cidade pobre do Nordeste brasileiro para impedir que a população saqueie um depósito de alimentos. Em meio a um cenário desolador, os policiais ficam chocados com a negligência do governo que, ao invés de mandar alimentos para os moradores famintos, manda soldados."
+    },
+    {
+      "id": 18,
+      "filme": "TROPA DE ELITE",
+      "ano": 2007,
+      "duração": "1h 55min",
+      "gênero": "Ação, Drama, Suspense",
+      "direção": "José Padilha",
+      "roteiro": "Luiz Eduardo Soares, José Padilha",
+      "elenco": "Wagner Moura, Caio Junqueira, André Ramiro",
+      "sinopse": "Em Tropa de Elite, o dia-a-dia do grupo de policiais e de um capitão do BOPE (Wagner Moura), que quer deixar a corporação e tenta encontrar um substituto para seu posto. Paralelamente dois amigos de infância se tornam policiais e se destacam pela honestidade e honra ao realizar suas funções, se indignando com a corrupção existente no batalhão em que atuam."
+    },
+    {
+      "id": 19,
+      "filme": "A HORA DA ESTRELA",
+      "ano": 1986,
+      "duração": "1h 36min",
+      "gênero": "Comédia dramática",
+      "direção": "Suzana Amaral",
+      "roteiro": "Clarice Lispector, Suzana Amaral",
+      "elenco": "Marcelia Cartaxo, José Dumont, Tamara Taxman",
+      "sinopse": "Macabéa (Marcélia Cartaxo) é uma imigrante nordestina, que vive em São Paulo. Ela trabalha como datilógrafa em uma pequena firma e vive em uma pensão miserável, onde divide o quarto com outras três mulheres. Macabéa não tem ambições, apesar de sentir desejo e querer ter um namorado. Um dia ela conhece Olímpico (José Dumont), um operário metalúrgico com quem inicia namoro. Só que Glória (Tamara Taxman), colega de trabalho de Macabéa, tem outros planos após se consultar com uma cartomante (Fernanda Montenegro)."
+    },
+    {
+      "id": 20,
+      "filme": "RIO, ZONA NORTE",
+      "ano": 1958,
+      "duração": "1h 30min",
+      "gênero": "Drama",
+      "direção": "Nelson Pereira dos Santos",
+      "roteiro": "Nelson Pereira dos Santos",
+      "elenco": "Jece Valadão, Paulo Goulart, Haroldo de Oliveira",
+      "sinopse": "Espírito da Luz (Grande Otelo), um talentoso compositor de sambas, tenta vender suas músicas e fazer sucesso no Brasil, mas acaba enganado por oportunistas e se vê preso nos esquemas da indústria fonográfica. Inconsciente após um acidente de trem, ele relembra passagens de sua vida e carreira, baseada num bairro da zona norte carioca."
+    },
+    {
+      "id": 21,
+      "filme": "MADAME SATÃ",
+      "ano": 2002,
+      "duração": "1h 45min",
+      "gênero": "Biografia, Drama",
+      "direção": "Karim Aïnouz",
+      "roteiro": "Karim Aïnouz",
+      "elenco": "Lázaro Ramos, Marcelia Cartaxo, Flavio Bauraqui",
+      "sinopse": "Rio de Janeiro, 1932. No bairro da Lapa vive encarcerado na prisão João Francisco (Lázaro Ramos), artista transformista que sonha em se tornar um grande astro dos palcos. Após deixar o cárcere, João passa a viver com Laurita (Marcélia Cartaxo), prostituta e sua 'esposa'; Firmina, a filha de Laurita; Tabu (Flávio Bauraqui), seu cúmplice; Renatinho (Felippe Marques), sem amante e também traidor; e ainda Amador (Emiliano Queiroz), dono do bar Danúbio Azul. É neste ambiente que João Francisco irá se transformar no mito Madame Satã, nome retirado do filme Madame Satã (1932), dirigido por Cecil B. deMille, que João Francisco viu e adorou."
+    },
+    {
+      "id": 22,
+      "filme": "O AUTO DA COMPADECIDA",
+      "ano": 2000,
+      "duração": "1h 35min",
+      "gênero": "Comédia, Aventura",
+      "direção": "Guel Arraes",
+      "roteiro": "Guel Arraes, Ariano Suassuna",
+      "elenco": " Matheus Nachtergaele, Selton Mello, Denise Fraga",
+      "sinopse": " As aventuras dos nordestinos João Grilo (Matheus Natchergaele), um sertanejo pobre e mentiroso, e Chicó (Selton Mello), o mais covarde dos homens. Ambos lutam pelo pão de cada dia e atravessam por vários episódios enganando a todos do pequeno vilarejo de Taperoá, no sertão da Paraíba. A salvação da dupla acontece com a aparição da Nossa Senhora (Fernanda Montenegro). Adaptação da obra de Ariano Suassuna."
+    },
+    {
+      "id": 23,
+      "filme": "O CANGACEIRO",
+      "ano": 1953,
+      "duração": "1h 45min",
+      "gênero": "Ação, Drama, Histórico",
+      "direção": "Lima Barreto (II)",
+      "roteiro": "Rachel de Queiroz, Lima Barreto (II)",
+      "elenco": "Alberto Ruschel, Marisa Prado, Milton Ribeiro",
+      "sinopse": "O bando de cangaceiros do capitão Gaudino (Milton Ribeiro) semeia o terror pela caatinga nordestina. É neste contexto que a professora Maria Clódia (Vanja Orico), raptada durante um assalto do grupo, se apaixona pelo pacífico Teodoro (Alberto Ruschel). O forte amor entre os dois gera grande conflito no bando."
+    },
+    {
+      "id": 24,
+      "filme": " O CÉU DE SUELY",
+      "ano": 2006,
+      "duração": "1h 28min",
+      "gênero": "Drama",
+      "direção": "Karim Aïnouz",
+      "roteiro": "Karim Aïnouz, Felipe Bragança",
+      "elenco": "Hermila Guedes, Marcelia Cartaxo, Zezita Matos",
+      "sinopse": "Hermila (Hermila Guedes) é uma jovem de 21 anos que está de volta à sua cidade-natal, a pequena Iguatu, localizada no interior do Ceará. Ela volta juntamente com seu filho, Mateuzinho, e aguarda para daqui a algumas semanas a chegada de Mateus, pai da criança, que ficou em São Paulo para acertar assuntos pendentes. Porém o tempo passa e Mateus simplesmente desaparece. Querendo deixar o lugar de qualquer forma, Hermila tem uma idéia inusitada: rifar seu próprio corpo para conseguir dinheiro suficiente para comprar passagens de ônibus para longe e iniciar nova vida."
+    },
+    {
+      "id": 25,
+      "filme": "QUE HORAS ELA VOLTA?",
+      "ano": 2015,
+      "duração": "1h 52min",
+      "gênero": "Drama",
+      "direção": "Anna Muylaert",
+      "roteiro": "Anna Muylaert",
+      "elenco": "Regina Casé, Camila Márdila, Michel Joelsas",
+      "sinopse": "A pernambucana Val (Regina Casé) se mudou para São Paulo a fim de dar melhores condições de vida para sua filha Jéssica. Com muito receio, ela deixou a menina no interior de Pernambuco para ser babá de Fabinho, morando integralmente na casa de seus patrões. Treze anos depois, quando o menino (Michel Joelsas) vai prestar vestibular, Jéssica (Camila Márdila) lhe telefona, pedindo ajuda para ir à São Paulo, no intuito de prestar a mesma prova. Os chefes de Val recebem a menina de braços abertos, só que quando ela deixa de seguir certo protocolo, circulando livremente, como não deveria, a situação se complica."
+    },
+    {
+      "id": 26,
+      "filme": "TATUAGEM",
+      "ano": 2013,
+      "duração": "1h 50min",
+      "gênero": "Drama",
+      "direção": " Hilton Lacerda",
+      "roteiro": "Hilton Lacerda",
+      "elenco": "Irandhir Santos, Jesuíta Barbosa, Rodrigo Garcia (II)",
+      "sinopse": "Recife, 1978. Clécio Wanderley (Irandhir Santos) é o líder da trupe teatral Chão de Estrelas, que realiza shows repletos de deboche e com cenas de nudez. A principal estrela da equipe é Paulete (Rodrigo Garcia), com quem Clécio mantém um relacionamento. Um dia, Paulete recebe a visita de seu cunhado, o jovem Fininha (Jesuíta Barbosa), que é militar. Encantado com o universo criado pelo Chão de Estrelas, ele logo é seduzido por Clécio. Não demora muito para que eles engatem um tórrido relacionamento, que o coloca em uma situação dúbia: ao mesmo tempo em que convive cada vez mais com os integrantes da trupe, ele precisa lidar com a repressão existente no meio militar em plena ditadura."
+    },
+    {
+      "id": 27,
+      "filme": "ESTÔMAGO",
+      "ano": 2008,
+      "duração": "1h 52min",
+      "gênero": "Drama",
+      "direção": "Marcos Jorge",
+      "roteiro": "Lusa Silvestre, Marcos Jorge",
+      "elenco": "João Miguel, Babu Santana, Fabiula Nascimento",
+      "sinopse": "Raimundo Nonato (João Miguel) foi para a cidade grande na esperança de ter uma vida melhor. Contratado como faxineiro em um bar, logo ele descobre que possui um talento nato para a cozinha. Com suas coxinhas Raimundo transforma o bar num sucesso. Giovanni (Carlo Briani), o dono de um conhecido restaurante italiano da região, o contrata como assistente de cozinheiro. A cozinha italiana é uma grande descoberta para Raimundo, que passa também a ter uma casa, roupas melhores, relacionamentos sociais e um amor: a prostituta Iria (Fabiula Nascimento)."
+    },
+    {
+      "id": 28,
+      "filme": "BAILE PERFUMADO",
+      "ano": 1997,
+      "duração": "1h 33min",
+      "gênero": "Comédia dramática",
+      "direção": "Lírio Ferreira, Paulo Caldas",
+      "roteiro": "Hilton Lacerda, Lírio Ferreira",
+      "elenco": "Chico Diaz, Luiz Carlos Vasconcelos, Jofre Soares",
+      "sinopse": "Amigo íntimo do Padre Cícero (Jofre Soares), o mascate libanês Benjamin Abrahão (Duda Mamberti) decide filmar Lampião (Luís Carlos Vasconcelos) e todo seu bando, pois acredita que este filme o deixará muito rico. Após alguns contatos iniciais ele conversa diretamente com o famoso cangaceiro e expõe sua idéia, mas os sonhos do mascate são prejudicados pela ditadura do Estado Novo."
+    },
+    {
+      "id": 29,
+      "filme": "AMARELO MANGA",
+      "ano": 2003,
+      "duração": "1h 40min",
+      "gênero": "Drama",
+      "direção": "Cláudio Assis",
+      "roteiro": "Hilton Lacerda",
+      "elenco": "Chico Diaz, Matheus Nachtergaele, Leona Cavalli",
+      "sinopse": "No subúrbio de Recife, Lígia (Leona Cavalli) acorda já mal humorada, pois terá de suportar mais um dia servindo fregueses, que às vezes a bolinam no bar onde trabalha. Quando o dia terminar, só lhe restará voltar ao seu pequeno quarto, em um anexo do bar, e dormir para suportar a mesma coisa no dia seguinte. Paralelamente Kika (Dira Paes), que é muito religiosa, está freqüentando um culto enquanto seu marido, Wellington (Chico Diaz), um cortador de carne, decanta as virtudes da sua mulher enquanto usa uma machadinha para fazer seu serviço. Neste instante no Hotel Texas, que também fica na periferia da cidade, Dunga (Matheus Nachtergaele), um gay que é apaixonado por Wellington, varre o chão antes de começar a fazer a comida. Na verdade ele é a pessoa mais polivalente no Texas, pois faz de tudo um pouco. Um hóspede do Hotel Texas, Isaac (Jonas Bloch), sente um grande prazer em atirar em cadáveres, que lhe são fornecidos por Rabecão, um funcionário do I.M.L. Apesar de decantar Kika, isto não impede de Wellington ter uma amante, que está cansada da situação e quer que ele tome logo uma decisão. Já Dunga pretende conseguir Wellington de outra forma, ou seja, fazendo um trabalho em um terreiro, assim de uma vez só ele 'dá uma rasteira' na mulher e na amante. Isaac vai se encontrar no bar com Rabecão para lhe avisar que pode levar o cadáver. Lá ele conhece Lígia e sente vontade de ir com ela para a cama, mesmo com Rabecão lhe avisando que ninguém ali transou com ela."
+    },
+    {
+      "id": 30,
+      "filme": "CARANDIRU",
+      "ano": 2003,
+      "duração": "2h 26min",
+      "gênero": "Drama",
+      "direção": "Héctor Babenco",
+      "roteiro": "Victor Navas, Drauzio Varella",
+      "elenco": "Luiz Carlos Vasconcelos, Milton Gonçalves, Ivan de Almeida",
+      "sinopse": "Um médico (Luiz Carlos Vasconcelos) se oferece para realizar um trabalho de prevenção a AIDS no maior presídio da América Latina, o Carandiru. Lá ele convive com a realidade dos cárceres, que inclui violência, superlotação das celas e instalações precárias. Porém, apesar de todos os problemas, o médico logo percebe que os prisioneiros não são figuras demoníacas, existindo dentro da prisão solidariedade, organização e uma grande vontade de viver."
+    },
+    {
+      "id": 31,
+      "filme": "MARTE UM",
+      "ano": 2022,
+      "duração": "1h 55min",
+      "gênero": "Drama",
+      "direção": "Gabriel Martins",
+      "roteiro": "Gabriel Martins",
+      "elenco": "Cícero Lucas, Carlos Francisco, Camilla Damião",
+      "sinopse": "A família Martins vive tranquilamente nas margens de uma grande cidade brasileira após a decepcionante posse de um presidente extremista de extrema-direita. Sendo uma família negra de classe média baixa, eles sentem a tensão de sua nova realidade. Tércia, a mãe, reinterpreta seu mundo depois que um encontro inesperado a deixa se perguntando se ela é amaldiçoada. Seu marido, Wellington, coloca todas as suas esperanças na carreira de seu filho, Deivinho, que por pressão e querendo agradar o pai, segue as ambições dele, apesar de secretamente aspirar estudar astrofísica e colonizar Marte. Enquanto isso, a filha mais velha, Eunice, se apaixona por uma jovem de espírito livre e questiona se é hora de sair de casa."
+    }
+  ]
+}
