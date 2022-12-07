@@ -3,89 +3,99 @@
     {
       "id": 1,
       "nome": "LIMITE",
+     
       "ano": 1931,
       "duração": "2h 00min",
       "gênero": "Drama, Romance",
       "direção": "Mario Peixoto",
       "roteiro": "Mario Peixoto",
       "elenco": "Olga Breno, Taciana Rey, Raul Schnoor",
+       "image":"https://upload.wikimedia.org/wikipedia/pt/9/99/Limite_%28filme%29.jpg",
       "Sinopse": "Um barco está perdido no oceano com três náufragos - um homem e duas mulheres. Sem ter o que fazer e com pouquíssimas esperanças de salvação, cada um deles passa a contar para os demais a história de suas vidas, relembrando os acontecimentos que os levaram até ali, três destinos à deriva, confinados em um espaço onde tudo é limite."
     },
     {
       "id": 2,
-      "filme": "DEUS E O DIABO NA TERRA DO SOL",
+      "nome": "DEUS E O DIABO NA TERRA DO SOL",
       "ano": 1964,
+      
       "duração": "2h 00min",
       "gênero": "Drama, Aventura, Crime, Faroeste",
       "direção": "Glauber Rocha",
       "roteiro": "Walter Lima Jr., Glauber Rocha",
       "elenco": "Geraldo Del Rey, Yoná Magalhães, Othon Bastos",
+      "image":"https://upload.wikimedia.org/wikipedia/pt/6/61/Deus_Diabo_Terra_Sol.jpg",
       "sinopse": "Manuel (Geraldo Del Rey) é um vaqueiro que se revolta contra a exploração imposta pelo coronel Moraes (Mílton Roda) e acaba matando-o numa briga. Ele passa a ser perseguido por jagunços, o que faz com que fuja com sua esposa Rosa (Yoná Magalhães). O casal se junta aos seguidores do beato Sebastião (Lídio Silva), que promete o fim do sofrimento através do retorno a um catolicismo místico e ritual. Porém ao presenciar a morte de uma criança Rosa mata o beato. Simultaneamente Antônio das Mortes (Maurício do Valle), um matador de aluguel a serviço da Igreja Católica e dos latifundiários da região, extermina os seguidores do beato."
     },
     {
       "id": 3,
-      "filme": "VIDAS SECAS",
+      "nome": "VIDAS SECAS",
       "ano": 1964,
       "duração": "1h 43min",
       "gênero": "Drama",
       "direção": "Nelson Pereira dos Santos",
       "roteiro": "Graciliano Ramos, Nelson Pereira dos Santos",
       "elenco": "Atila Iorio, Maria Ribeiro (II), Orlando Macedo",
+      "image":"https://upload.wikimedia.org/wikipedia/pt/7/7f/Vidas_Secas_CN_0116A.jpg",
       "sinopse": "Em Vidas Secas, uma família miserável tenta escapar da seca no sertão nordestino. Fabiano (Átila Iório), Sinhá Vitória (Maria Ribeiro), seus dois filhos e a cachorra Baleia vagam sem destino e já quase sem esperanças pelos confins do interior, sobrevivendo às forças da natureza e à crueldade dos homens. Adaptação da obra de Graciliano Ramos."
     },
     {
       "id": 4,
-      "filme": "Cabra Marcado para Morrer",
+      "nome": "Cabra Marcado para Morrer",
       "ano": 1984,
       "duração": "1h 59min",
       "gênero": "Documentário",
       "direção": "Eduardo Coutinho",
       "roteiro": "Eduardo Coutinho",
       "elenco": "Eduardo Coutinho, Ferreira Gullar, Tite de Lemos",
+      "image":"https://upload.wikimedia.org/wikipedia/pt/9/9c/Cabra-marcado-para-morrer-poster03.png",
       "sinopse": "Início da década de 60. Um líder camponês, João Pedro Teixeira, é assassinado por ordem dos latifundiários do Nordeste. As filmagens de sua vida, interpretada pelos própios camponeses, foram interrompidas pelo golpe militar de 1964. Dezessete anos depois, o diretor retoma o projeto e procura a viúva Elizabeth Teixeira e seus dez filhos, espalhados pela onda de repressão que seguiu ao episódio do assassinato. O tema principal do filme passa a ser a trajetória de cada um dos personagens que, por meio de lembranças e imagens do passado, evocam o drama de uma família de camponeses durante os longos anos do regime militar."
     },
     {
       "id": 5,
-      "filme": "TERRA EM TRANSE",
+      "nome": "TERRA EM TRANSE",
       "ano": 1967,
       "duração": "1h 55min",
       "gênero": "Drama",
       "direção": "Glauber Rocha",
       "roteiro": "Glauber Rocha",
-      "lenco": "Jardel Filho, Paulo Autran, José Lewgoy",
+      "elenco": "Jardel Filho, Paulo Autran, José Lewgoy",
+      "image":,
       "sinopse": "O senador Porfírio Diaz (Paulo Autran) detesta seu povo e pretende tornar-se imperador de Eldorado, um país localizado na América do Sul. Porém existem diversos homens que querem este poder, que resolvem enfrentá-lo. Enquanto isso, o poeta e jornalista Paulo Martins (Jardel Filho), ao perceber as reais intenções de Diaz, muda de lado, abandonando seu antigo protetor."
     },
     {
       "id": 6,
-      "filme": "O BANDIDO DA LUZ VERMELHA",
+      "nome": "O BANDIDO DA LUZ VERMELHA",
       "ano": 1968,
       "duração": "1h 32min",
       "gênero": "Drama",
       "direção": "Rogério Sganzerla",
       "roteiro": "Rogério Sganzerla",
       "elenco": "Paulo Villaça, Helena Ignêz, Pagano Sobrinho",
+      "image":"https://upload.wikimedia.org/wikipedia/pt/3/37/O_Bandido_da_Luz_Vermelha_1968.jpeg",
       "sinopse": "Livremente inspirado em fatos reais. Um assaltante misterioso (Paulo Villaça) usa técnicas extravagantes para roubar casas luxuosas de São Paulo. Ele é apelidado pela imprensa de (bandido da luz vermelha), já que traz sempre uma lanterna vermelha e conversa longamente com suas vítimas. No entanto, seus roubos e crimes chamam tanta atenção que um implacável policial começa a perseguir o (bandido da luz vermelha)."
     },
     {
       "id": 7,
-      "filme": "SÃO PAULO SOCIEDADE ANÔNIMA",
+      "nome": "SÃO PAULO SOCIEDADE ANÔNIMA",
       "ano": 1965,
       "duração": "1h 30min",
       "gênero": "Drama",
       "direção": "Luís Sérgio Person",
       "roteiro": "Luís Sérgio Person",
       "elenco": "Walmor Chagas, Eva Wilma, Ana Esmeralda",
+      "image":"https://upload.wikimedia.org/wikipedia/pt/2/2b/S%C3%A3o_Paulo%2C_Sociedade_An%C3%B4nima.jpg",
       "sinopse": "Em São Paulo, entre 1957 e 1961, é mostrada a trajetória de Carlos (Walmor Chagas), que pertence à classe média. Guiando-se pelas chances imediatas que lhe são dadas pela sociedade, ele ingressa numa grande empresa. Depois aceita um cargo numa fábrica de auto-peças, da qual torna-se gerente. A certa altura se vê na pele de um chefe de família, que trabalha muito, ganha bem, mas vive insatisfeito. Sem projeto de vida ou perspectivas de se opor à condição que rejeita, só lhe resta fugir."
     },
     {
       "id": 8,
-      "filme": "CIDADE DE DEUS",
+      "nome": "CIDADE DE DEUS",
       "ano": 2002,
       "duração": "2h 15min",
       "gênero": ", Policial",
       "direção": "Kátia Lund, Fernando Meirelles",
       "roteiro": "Paulo Lins, Braulio Mantovani",
       "elenco": "Alexandre Rodrigues, Leandro Firmino da Hora, Seu Jorge",
+      "image":"https://upload.wikimedia.org/wikipedia/pt/1/10/CidadedeDeus.jpg",
       "sinopse": "Buscapé (Alexandre Rodrigues) é um jovem pobre, negro e muito sensível, que cresce em um universo de muita violência. Buscapé vive na Cidade de Deus, favela carioca conhecida por ser um dos locais mais violentos da cidade. Amedrontado com a possibilidade de se tornar um bandido, Buscapé acaba sendo salvo de seu destino por causa de seu talento como fotógrafo, o qual permite que siga carreira na profissão. É através de seu olhar atrás da câmera que Buscapé analisa o dia-a-dia da favela onde vive, onde a violência aparenta ser infinita."
     }
   ]
